@@ -1,0 +1,23 @@
+{
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 180,
+    "tabWidth": 2,
+    "useTabs": false,
+    "endOfLine": "auto",
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "parser": "typescript",
+    "bracketSameLine": false,
+    "jsxSingleQuote": false,
+    "jsxBracketSameLine": false,
+    "importOrder": [
+        "^@core/(.*)$",
+        "^@server/(.*)$",
+        "^@ui/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+}
